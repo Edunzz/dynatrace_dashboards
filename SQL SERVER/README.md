@@ -36,7 +36,7 @@ Instead of reviewing metrics in isolation, this dashboard brings together the mo
 - host resource usage,
 - and cloud database capacity signals.
 
-All shared assets in this repository were prepared for **safe public use**, with sensitive data **obfuscated**.
+All shared assets in this repository were prepared for **safe public use**, without sensitive data.
 
 ---
 
@@ -155,10 +155,9 @@ Example structure:
 
 ```text
 .
-├── dashboard/
+├── SQL SERVER/
 │   └── sql-server-deep-review-root-cause-dashboard.json
 ├── images/
-│   ├── overview.png
 │   ├── problems-events.png
 │   ├── db-layer.png
 │   ├── service-layer.png
@@ -173,20 +172,14 @@ Example structure:
 
 You can replace the paths below with the final names of your exported images.
 
-### Full dashboard
-![Full Dashboard](./images/overview.png)
-
 ### Problems and events
 ![Problems and Events](./images/problems-events.png)
 
 ### DB layer
 ![DB Layer](./images/db-layer.png)
 
-### Service layer
+### Service layer and Host layer
 ![Service Layer](./images/service-layer.png)
-
-### Host layer
-![Host Layer](./images/host-layer.png)
 
 ### Cloud layer
 ![Cloud Layer](./images/cloud-layer.png)
@@ -258,7 +251,7 @@ You can:
 
 ## About the author
 
-**Edunzz**  
+**Edunzz: Jose Eduardo Romero Jimenez**  
 Observability, troubleshooting, dashboards, and practical engineering assets for real operations.
 
 If you found this useful, consider starring the repository and sharing it with others in the Dynatrace and SQL Server community.
@@ -268,14 +261,4 @@ If you found this useful, consider starring the repository and sharing it with o
 ## Mini note in Spanish
 
 > **Comentario breve:** Este dashboard está pensado para analizar SQL Server en Dynatrace de forma más integral, conectando problemas, eventos, capa de base de datos, capa de servicios, host y cloud para facilitar el análisis y la búsqueda de causa raíz. El JSON publicado tiene datos sensibles ofuscados para que cualquiera pueda reutilizarlo y adaptarlo.
-
----
-
-## Suggested repository title
-
-**sql-server-dynatrace-deep-review-root-cause-dashboard**
-
-## Suggested tags
-
-`dynatrace` `sql-server` `observability` `dashboard` `monitoring` `root-cause-analysis` `database` `sre` `performance` `troubleshooting`
 
